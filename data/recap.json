@@ -1,0 +1,12 @@
+{
+  "heading": "Previously",
+  "lines": [
+    "Placeholder recap line one, supplied from data.",
+    "Placeholder recap line two, supplied from data.",
+    "Placeholder recap line three, supplied from data."
+  ],
+  "holdSeconds": 20,
+  "fadeFrames": 0,
+  "foreground": "#ffffff",
+  "background": "#000000"
+}

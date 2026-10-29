@@ -1,0 +1,30 @@
+{
+  "name": "remotion-cards",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Props-driven Remotion title cards: disclosure card and toggleable recap card. JSON in, video out.",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "check:text": "tsx scripts/check-text.ts",
+    "render:disclosure": "remotion render Disclosure out/disclosure.mp4 --props=data/disclosure.json --width=3840 --height=2160",
+    "render:recap": "remotion render Recap out/recap.mp4 --props=data/recap.json --width=3840 --height=2160",
+    "render:episode": "remotion render Episode out/episode-with-recap.mp4 --props=data/episode.json --width=3840 --height=2160",
+    "render:feature-cut": "remotion render Episode out/episode-feature-cut.mp4 --props=data/episode.feature-cut.json --width=3840 --height=2160",
+    "render:preview": "remotion render Episode out/episode-preview.mp4 --props=data/episode.json --scale=0.25",
+    "still:disclosure": "remotion still Disclosure out/disclosure.png --props=data/disclosure.json --frame=60"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.250",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.250",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tsx": "4.19.2",
+    "typescript": "5.5.4"
+  }
+}

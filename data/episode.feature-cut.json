@@ -1,0 +1,38 @@
+{
+  "totalDuration": "0:10:00",
+  "includeRecap": false,
+  "rippleOnRemove": true,
+  "guideTrack": null,
+  "includeGuideInRender": false,
+  "cues": [
+    {
+      "id": "recap-2-0",
+      "kind": "recap",
+      "start": "0:00:00",
+      "card": {
+        "heading": "Previously",
+        "lines": [
+          "Placeholder recap line one, supplied from data.",
+          "Placeholder recap line two, supplied from data.",
+          "Placeholder recap line three, supplied from data."
+        ],
+        "holdSeconds": 20,
+        "fadeFrames": 0,
+        "foreground": "#ffffff",
+        "background": "#000000"
+      }
+    },
+    {
+      "id": "disclosure-4",
+      "kind": "disclosure",
+      "start": "0:09:00",
+      "card": {
+        "text": "PLACEHOLDER DISCLOSURE TEXT.\nThis wording stands in for the verbatim text supplied by the client.\nReplace it in this file. No code change is needed.",
+        "holdSeconds": 8,
+        "fadeFrames": 0,
+        "foreground": "#ffffff",
+        "background": "#000000"
+      }
+    }
+  ]
+}
